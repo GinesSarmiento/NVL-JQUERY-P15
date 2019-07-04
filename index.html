@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>NVL-JQUERY-P15</title>
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<style>
+		img{
+			width: 300px;
+		}
+		#imagenes{
+			width: 900px;
+			margin:0px auto 0px auto;
+		}
+		.grupo{
+			display: block;
+			width: 300px;
+			float: left;
+		}
+		.imagen2{
+
+			display: none;
+		}
+		#boton_animacion{
+			display: block;
+			width: 200px;
+			height: 50px;
+			background: #DDD;
+			margin:0px auto 0px auto;
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<div id="imagenes"> 
+		<div id="nepal" class="grupo">
+			<img class="imagen1" src="images/nepal1.jpg" alt="Mujeres bailando en la fiesta de la mujer en Nepal">
+			<img class="imagen2" src="images/nepal2.jpg" alt="Mujeres bailando en la fiesta de la mujer en Nepal">
+		</div>
+		<div id="muelle" class="grupo">
+			<img class="imagen1" src="images/muelle1.jpg" alt="Ola llegando debajo del muelle de Santa Mónica">
+			<img class="imagen2" src="images/muelle2.jpg" alt="Ola llegando debajo del muelle de Santa Mónica">
+		</div>
+		<div id="rodaje" class="grupo">
+			<img class="imagen1" src="images/rodaje1.jpg" alt="Pardillo con una claqueta abierta">
+			<img class="imagen2" src="images/rodaje2.jpg" alt="Pardillo con una claqueta cerrada">
+		</div>
+
+	</div>
+	<div>
+		<input id="boton_animacion" type="button" value="Animación de imágenes">
+	</div>
+</body>
+</html>
